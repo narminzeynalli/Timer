@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+
+html {
+  font-size: 10px;
+  overflow-x: hidden;
+}
+html body .main-content-container {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/background1.jpg") no-repeat center/cover;
+}
+html body .main-content-container .input-time {
+  height: 15vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+html body .main-content-container .input-time input {
+  width: 61%;
+  height: 4rem;
+  background-color: transparent;
+  border: 2px solid #fff;
+  text-align: center;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+html body .main-content-container .input-time input::-moz-placeholder {
+  text-align: center;
+  color: #fff;
+}
+html body .main-content-container .input-time input:-ms-input-placeholder {
+  text-align: center;
+  color: #fff;
+}
+html body .main-content-container .input-time input::placeholder {
+  text-align: center;
+  color: #fff;
+}
+html body .main-content-container .input-time input:focus {
+  text-align: center;
+  color: #fff;
+  outline: none;
+}
+html body .main-content-container .input-time .buttons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+html body .main-content-container .input-time .buttons button {
+  min-width: 8.4%;
+  height: 4rem;
+  font-size: 1.3rem;
+  border: 1px solid #fff;
+  background-color: #fff;
+  mix-blend-mode: screen;
+  margin-left: 0.5rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+html body .main-content-container .input-time .buttons button:hover {
+  transform: scale(0.9);
+}
+html body .main-content-container .input-time .buttons button:first-child {
+  margin-left: 0 !important;
+}
+html body .main-content-container .time-cards {
+  height: 82vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+html body .main-content-container .time-cards .time-card {
+  margin: 2rem;
+}
+html body .main-content-container .time-cards .time-card .name {
+  text-align: center;
+  font-size: 3rem;
+  text-transform: capitalize;
+  color: #fff;
+  margin-top: 2rem;
+}
+html body .main-content-container .time-cards .time-card .time {
+  width: 25rem;
+  height: 25rem;
+  font-size: 12rem;
+  mix-blend-mode: screen;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}/*# sourceMappingURL=style.css.map */

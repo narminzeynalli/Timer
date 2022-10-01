@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- required meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- favicon of page -->
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.jpg">
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="assets/sass/style.css">
+
+    <!-- title -->
+    <title>Timer</title>
+</head>
+<body>
+
+    <!-- timer start -->
+    <div class="main-content-container">
+        <div class="time-cards">
+            <div class="time-card">
+                <h1 class="time" data-hours>00</h1>
+                <p class="name">hours</p>
+            </div>
+            <div class="time-card">
+                <h1 class="time" data-minutes>00</h1>
+                <p class="name">minutes</p>
+            </div>
+            <div class="time-card">
+                <h1 class="time" data-seconds>00</h1>
+                <p class="name">seconds</p>
+            </div>
+        </div>
+        <div class="input-time">
+            <input type="text" placeholder="Enter Time" data-input>
+            <div class="buttons">
+                <button data-set-minutes-button>Set Minutes</button>
+                <button data-set-seconds-button>Set Seconds</button>
+                <button data-timer-button>Timer</button>
+                <button data-stop-watch-button>Stopwatch</button>
+                <button data-stop-button>Stop</button>
+                <button data-continue-button>Continue</button>
+                <button data-clear-button>Clear</button>
+            </div>
+        </div>
+        <audio src="assets/audio/counter-sound-effect.mp3" data-audio></audio>
+    </div>
+    <!-- timer end -->
+
+
+    <!-- js link -->
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
